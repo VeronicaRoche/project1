@@ -1,0 +1,13 @@
+<div id="log">
+    <h4> Login</h4>
+    <input type="text" id="email" name="email" placeholder="Enter email" [(ngModel)]="email" >
+    <br><br>
+    <input type="text" id="pwd" name="pwd" placeholder="Enter password" [(ngModel)]="pwd">
+    <br><br>
+    <button type="button" (click)="checklogin()" class="btn btn-success">Login</button>
+    
+    <br>
+
+    {{msg}}
+
+</div>
